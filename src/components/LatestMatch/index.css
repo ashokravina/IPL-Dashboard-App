@@ -1,0 +1,123 @@
+/* Write your CSS here */
+.latest-list {
+  list-style-type: none;
+  margin-top: 30px;
+}
+.latest-container {
+  background-color: #0f172a;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.home-ground-details {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+}
+.name {
+  font-family: 'Bree serif';
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.year {
+  font-family: 'Bree serif';
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+}
+.venue {
+  font-family: 'Bree serif';
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 10;
+}
+.result {
+  font-family: 'Bree serif';
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 800;
+}
+.team-logo {
+  width: 250px;
+  height: 250px;
+  align-self: center;
+}
+.match-summary {
+  font-family: 'Bree serif';
+
+  color: #ffffff;
+}
+.innings {
+  font-size: 17px;
+  font-weight: 800;
+}
+.match-innings {
+  font-size: 14px;
+  font-weight: 50;
+}
+.manofthematch-para {
+  font-size: 19px;
+  font-weight: 700;
+}
+.manofthematch {
+  font-size: 14px;
+  font-weight: 50;
+}
+.line {
+  display: none;
+}
+.main-card {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+@media (max-width: 576px) {
+  .manofthematch {
+    font-size: 12px;
+  }
+  .manofthematch-para {
+    font-size: 15px;
+  }
+  .match-innings {
+    font-size: 12px;
+  }
+  .innings {
+    font-size: 14px;
+  }
+  .team-logo {
+    width: 100px;
+    height: 100px;
+  }
+  .year {
+    font-size: 12px;
+  }
+  .result {
+    font-size: 13px;
+  }
+  .venue {
+    font-size: 12px;
+  }
+  .name {
+    font-size: 18px;
+  }
+
+  .main-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .latest-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .line {
+    color:  #475569;
+    display:inline;
+    width:100%;
+  }
+}
